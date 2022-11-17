@@ -15,9 +15,11 @@ const server = http.createServer(function(req, res){
         case "/home.html" :
             res.write(home)
              break;
+        case "/project":
         case "/project.html" :
             res.write(project)
              break;
+        case "/registration":
         case "/registration.html" : 
         res.write(registration)
         break;
