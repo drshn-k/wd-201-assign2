@@ -11,7 +11,7 @@ const PORT = +process.argv[2].split('=')[1];
 const server = http.createServer(function(req, res){
     console.log(req.url);
     switch(req.url){
-
+        case "/" : 
         case "/home.html" :
             res.write(home)
              break;
